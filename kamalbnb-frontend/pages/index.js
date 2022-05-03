@@ -2,7 +2,7 @@ import { sanityClient, urlFor } from "../sanity"
 import Link from "next/link"
 import { isMultiple } from "../utils"
 import DashboardMap from "../components/DashboardMap"
-
+/* eslint-disable react/jsx-key */
 const Home = ({ properties }) => {
   console.log(properties);
   return (

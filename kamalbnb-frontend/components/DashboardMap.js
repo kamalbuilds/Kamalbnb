@@ -1,6 +1,6 @@
 import React from "react"
 import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api"
-
+/* eslint-disable react/jsx-key */
 const DashboardMap = ({ properties }) => {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
