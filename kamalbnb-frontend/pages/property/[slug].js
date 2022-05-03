@@ -54,7 +54,7 @@ const Property = ({
             <b>Enhanced Clean</b>
           </h4>
           <p>
-            This host is committed to kamalbnb's 3-step enhanced cleaning process.
+            This host is committed to kamalbnb&apos;s 3-step enhanced cleaning process.
           </p>
           <h4>
             <b>Nice for everyday living</b>
@@ -67,7 +67,7 @@ const Property = ({
             <b>House rules</b>
           </h4>
           <p>
-            This place isn't suitable for pets and the host dislikes littering and seeing the place dirty.
+            This place is not suitable for pets and the host dislikes littering and seeing the place dirty.
             Nor he likes guests smoking 😟
           </p>
         </div>
