@@ -3,8 +3,13 @@ import createSchema from 'part:@sanity/base/schema-creator'
 
 // Then import schema types from any plugins that might expose them
 import schemaTypes from 'all:part:@sanity/base/schema-type'
-import person from './person';
+// import person from './person';
 import property from './property';
+import person from './person';
+import propertyImage from './propertyImage';
+import review from './reviews';
+import traveller from './traveller';
+import host from './host';
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -14,10 +19,10 @@ export default createSchema({
   types: schemaTypes.concat([
     /* Your types here! */
     property,
-    // propertyImage,
-    // review,
-    // traveller,
-    // host,
-    // person,
+    propertyImage,
+    review,
+    traveller,
+    host,
+    person,
   ]),
 })
